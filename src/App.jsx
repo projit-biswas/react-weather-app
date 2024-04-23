@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import {dateConvert} from "./components/DateConvert";
+import Search from "./components/Search/Search";
 
 
 function App() {
@@ -61,6 +62,8 @@ function App() {
       ) : (
         <p>Loading...</p>
       )}
+
+      <Search/>
     </>
   );
 }
